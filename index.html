@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatbot created by Mehul</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="title">
+    <span>ASK YOUR QUERIES TO THE CHATBOT</span>
+  </div>
+    <div id="chat-window">
+      <div class="main-title">CHAT BOT created by Mehul</div>
+      <div id="chat-messages"></div>
+      <form id="chat-form" action="/" method="post">
+        <input
+          type="text"
+          id="chat-input"
+          autocomplete="off"
+          name="question"
+          placeholder="Type your Question here"
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+  
+ 
+</html>
+
